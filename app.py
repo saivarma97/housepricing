@@ -18,7 +18,7 @@ def predict_api():
     values = np.array(list(data.values())).reshape(1, -1)
     print(values)
     new_data = scalar.transform(values)
-    output = regmodel.predit(new_data)
+    output = regmodel.predict(new_data)
     print(output[0])
     return jsonify(output[0])
 
