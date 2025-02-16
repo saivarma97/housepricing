@@ -13,3 +13,8 @@ Create a New environment
 ```
 conda create -p venv python -y
 ```
+
+## Here is the final HTML page with predicted value
+User gives his values to get the Estimated price in california
+
+![Here is the final HTML page with predicted value](image.png)
